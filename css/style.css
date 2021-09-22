@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* header */
+
 header {
     background-image: url(../img/jumbo.png);
     height: 600px;
@@ -26,6 +28,8 @@ header {
     margin-top: 20px;
     float: left;
 }
+
+/* navigazione header */
 
 .lista-nav {
     margin-left: 30%;
@@ -50,6 +54,8 @@ header {
     border-radius: 20px;
     font-weight: bold;
 }
+
+/* jumbo */
 
 .jumbo {
     width: 60%;
@@ -100,3 +106,67 @@ header {
     border-radius: 20px;
     font-weight: bold;
 }
+
+/* parte principale */
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.sezioni-principali {
+    height: 750px;
+    margin-bottom: 50px;
+}
+
+/* sezione 1 e 3 */
+
+.immagine-sezione img {
+    width: 40%;
+    margin-top: 100px;
+    float: left;
+    margin-left: 15%;
+}
+
+.spiegazione-sezione {
+    float: left;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.spiegazione-sezione h2 {
+    font-size: 45px;
+    color: rgb(0, 0, 26);
+}
+
+.spiegazione-sezione p {
+    font-size: 19px;
+    margin-top: 20px;
+    color: rgb(0, 0, 26);
+}
+
+/* sezione 2 */
+
+.grigio {
+    background-color: rgb(236, 236, 236);
+}
+
+#sezione-2 {
+    float: left;
+    width: 20%;
+    margin-right: 0;
+    margin-left: 15%;
+    margin-top: 120px;
+}
+
+#immagine-2 {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 15%;
+}
+
+/* sezione 4 */
