@@ -3,3 +3,100 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.contenitore-header {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo-discord {
+    margin-top: 20px;
+    float: left;
+}
+
+.lista-nav {
+    margin-left: 30%;
+}
+
+.lista-nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#accesso {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.jumbo {
+    width: 60%;
+    margin: 100px 300px 0;
+}
+
+.jumbo h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.jumbo p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 100px 0;
+}
+
+.bottoni {
+    width: 50%;
+    margin: 30px 400px 0;
+    text-align: center;
+}
+
+#scarica {
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.fa-long-arrow-alt-down {
+    padding-right: 15px;
+}
+
+#apri {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 26);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
